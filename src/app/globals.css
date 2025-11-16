@@ -174,7 +174,7 @@ body,
   --amplify-components-fieldcontrol-border-radius: var(--radius);
 }
 
-[data-amplify-authenticator][data-variation="default"] {
+[data-amplify-authenticator][data-variation='default'] {
   height: 100%;
   padding: 2rem !important;
 }
@@ -244,6 +244,6 @@ body,
 }
 
 /* Sonner Toast Styles */
-[data-close-button="true"] {
+[data-close-button='true'] {
   @apply bg-background border-border text-foreground hover:bg-muted;
 }
