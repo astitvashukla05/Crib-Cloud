@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "cognitoId": "ap-south-1:817b3540-a061-707b-742a-a28391181149",
+    "name": "Charu Verma",
+    "email": "charu.verma@example.in",
+    "phoneNumber": "+91 98765 32109",
+    "properties": {
+      "connect": [{ "id": 5 }, { "id": 6 }]
+    }
+  },
+  {
+    "id": 2,
+    "cognitoId": "ap-south-1:87654321-90ab-cdef-1234-567890abcdef",
+    "name": "Bhavesh Gupta",
+    "email": "bhavesh.gupta@example.in",
+    "phoneNumber": "+91 98123 45678",
+    "favorites": {
+      "connect": [{ "id": 2 }]
+    }
+  },
+  {
+    "id": 3,
+    "cognitoId": "ap-south-1:98765432-90ab-cdef-1234-567890abcdef",
+    "name": "Aisha Sharma",
+    "email": "aisha.sharma@example.in",
+    "phoneNumber": "+91 98765 43210",
+    "properties": {
+      "connect": []
+    },
+    "favorites": {
+      "connect": []
+    }
+  },
+  {
+    "id": 4,
+    "cognitoId": "ap-south-1:65432109-90ab-cdef-1234-567890abcdef",
+    "name": "Devansh Iyer",
+    "email": "devansh.iyer@example.in",
+    "phoneNumber": "+91 99011 22334",
+    "properties": {
+      "connect": [{ "id": 4 }]
+    },
+    "favorites": {
+      "connect": [{ "id": 4 }, { "id": 5 }]
+    }
+  },
+  {
+    "id": 5,
+    "cognitoId": "ap-south-1:54321098-90ab-cdef-1234-567890abcdef",
+    "name": "Esha Reddy",
+    "email": "esha.reddy@example.in",
+    "phoneNumber": "+91 98712 34567",
+    "properties": {
+      "connect": [{ "id": 2 }, { "id": 9 }]
+    },
+    "favorites": {
+      "connect": [{ "id": 1 }, { "id": 5 }, { "id": 6 }]
+    }
+  },
+  {
+    "id": 6,
+    "cognitoId": "ap-south-1:43210987-90ab-cdef-1234-567890abcdef",
+    "name": "Farhan Khan",
+    "email": "farhan.khan@example.in",
+    "phoneNumber": "+91 98844 55667",
+    "properties": {
+      "connect": [{ "id": 10 }]
+    }
+  },
+  {
+    "id": 7,
+    "cognitoId": "ap-south-1:32109876-90ab-cdef-1234-567890abcdef",
+    "name": "Gargi Mehta",
+    "email": "gargi.mehta@example.in",
+    "phoneNumber": "+91 97000 11223",
+    "properties": {
+      "connect": [{ "id": 6 }]
+    },
+    "favorites": {
+      "connect": [{ "id": 3 }, { "id": 7 }]
+    }
+  },
+  {
+    "id": 8,
+    "cognitoId": "ap-south-1:21098765-90ab-cdef-1234-567890abcdef",
+    "name": "Harshita Singh",
+    "email": "harshita.singh@example.in",
+    "phoneNumber": "+91 98222 33445",
+    "properties": {
+      "connect": [{ "id": 3 }]
+    }
+  },
+  {
+    "id": 9,
+    "cognitoId": "ap-south-1:10987654-90ab-cdef-1234-567890abcdef",
+    "name": "Isha Agarwal",
+    "email": "isha.agarwal@example.in",
+    "phoneNumber": "+91 97012 34567",
+    "properties": {
+      "connect": [{ "id": 7 }, { "id": 8 }]
+    },
+    "favorites": {
+      "connect": [{ "id": 7 }, { "id": 9 }]
+    }
+  },
+  {
+    "id": 10,
+    "cognitoId": "ap-south-1:09876543-90ab-cdef-1234-567890abcdef",
+    "name": "Jatin Thakur",
+    "email": "jatin.thakur@example.in",
+    "phoneNumber": "+91 97123 45678",
+    "properties": {
+      "connect": [{ "id": 10 }]
+    },
+    "favorites": {
+      "connect": [{ "id": 2 }, { "id": 10 }]
+    }
+  },
+  {
+    "id": 11,
+    "cognitoId": "ap-south-1:a9876543-90ab-cdef-1234-567890abcdef",
+    "name": "Kavya Malhotra",
+    "email": "kavya.malhotra@example.in",
+    "phoneNumber": "+91 98198 76543",
+    "properties": {
+      "connect": [{ "id": 2 }]
+    },
+    "favorites": {
+      "connect": [{ "id": 1 }, { "id": 4 }, { "id": 7 }]
+    }
+  },
+  {
+    "id": 12,
+    "cognitoId": "ap-south-1:b9876543-90ab-cdef-1234-567890abcdef",
+    "name": "Lalit Narayan",
+    "email": "lalit.narayan@example.in",
+    "phoneNumber": "+91 98987 65432",
+    "favorites": {
+      "connect": [{ "id": 3 }, { "id": 6 }, { "id": 9 }]
+    }
+  },
+  {
+    "id": 13,
+    "cognitoId": "ap-south-1:c9876543-90ab-cdef-1234-567890abcdef",
+    "name": "Mira Desai",
+    "email": "mira.desai@example.in",
+    "phoneNumber": "+91 97724 68135",
+    "properties": {
+      "connect": [{ "id": 4 }]
+    }
+  },
+  {
+    "id": 14,
+    "cognitoId": "ap-south-1:d9876543-90ab-cdef-1234-567890abcdef",
+    "name": "Nikhil Kumar",
+    "email": "nikhil.kumar@example.in",
+    "phoneNumber": "+91 97639 25800",
+    "favorites": {
+      "connect": [{ "id": 1 }, { "id": 10 }]
+    }
+  },
+  {
+    "id": 15,
+    "cognitoId": "ap-south-1:e9876543-90ab-cdef-1234-567890abcdef",
+    "name": "Olivia Chandra",
+    "email": "olivia.chandra@example.in",
+    "phoneNumber": "+91 98159 75311",
+    "properties": {
+      "connect": [{ "id": 5 }]
+    },
+    "favorites": {
+      "connect": [{ "id": 4 }, { "id": 7 }, { "id": 9 }]
+    }
+  }
+]

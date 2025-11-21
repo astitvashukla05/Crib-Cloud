@@ -1,0 +1,173 @@
+[
+  {
+    "id": 1,
+    "applicationDate": "2023-05-20T00:00:00+05:30",
+    "status": "Approved",
+    "propertyId": 1,
+    "tenantCognitoId": "ap-south-1:98765432-90ab-cdef-1234-567890abcdef",
+    "name": "Aisha Sharma",
+    "email": "aisha.sharma@example.in",
+    "phoneNumber": "+91 98765 43210",
+    "message": "I am interested in this property.",
+    "leaseId": 1
+  },
+  {
+    "id": 2,
+    "applicationDate": "2023-05-25T00:00:00+05:30",
+    "status": "Pending",
+    "propertyId": 2,
+    "tenantCognitoId": "ap-south-1:87654321-90ab-cdef-1234-567890abcdef",
+    "name": "Bhavesh Gupta",
+    "email": "bhavesh.gupta@example.in",
+    "phoneNumber": "+91 98123 45678",
+    "message": "Looking forward to viewing this apartment."
+  },
+  {
+    "id": 3,
+    "applicationDate": "2023-06-01T00:00:00+05:30",
+    "status": "Denied",
+    "propertyId": 3,
+    "tenantCognitoId": "ap-south-1:817b3540-a061-707b-742a-a28391181149",
+    "name": "Charu Verma",
+    "email": "charu.verma@example.in",
+    "phoneNumber": "+91 97654 32109",
+    "message": "Excited about the possibility of renting this house."
+  },
+  {
+    "id": 4,
+    "applicationDate": "2023-06-10T00:00:00+05:30",
+    "status": "Approved",
+    "propertyId": 4,
+    "tenantCognitoId": "ap-south-1:65432109-90ab-cdef-1234-567890abcdef",
+    "name": "Devansh Iyer",
+    "email": "devansh.iyer@example.in",
+    "phoneNumber": "+91 99011 22334",
+    "message": "This property looks perfect for my needs.",
+    "leaseId": 4
+  },
+  {
+    "id": 5,
+    "applicationDate": "2023-06-15T00:00:00+05:30",
+    "status": "Pending",
+    "propertyId": 5,
+    "tenantCognitoId": "ap-south-1:54321098-90ab-cdef-1234-567890abcdef",
+    "name": "Esha Reddy",
+    "email": "esha.reddy@example.in",
+    "phoneNumber": "+91 98712 34567",
+    "message": "I'm very interested in this apartment."
+  },
+  {
+    "id": 6,
+    "applicationDate": "2023-06-20T00:00:00+05:30",
+    "status": "Approved",
+    "propertyId": 6,
+    "tenantCognitoId": "ap-south-1:43210987-90ab-cdef-1234-567890abcdef",
+    "name": "Farhan Khan",
+    "email": "farhan.khan@example.in",
+    "phoneNumber": "+91 98844 55667",
+    "message": "This property seems to fit all my requirements.",
+    "leaseId": 6
+  },
+  {
+    "id": 7,
+    "applicationDate": "2023-06-25T00:00:00+05:30",
+    "status": "Pending",
+    "propertyId": 3,
+    "tenantCognitoId": "ap-south-1:32109876-90ab-cdef-1234-567890abcdef",
+    "name": "Gargi Mehta",
+    "email": "gargi.mehta@example.in",
+    "phoneNumber": "+91 97000 11223",
+    "message": "I'm interested in this loft and would like to schedule a viewing."
+  },
+  {
+    "id": 8,
+    "applicationDate": "2023-07-01T00:00:00+05:30",
+    "status": "Approved",
+    "propertyId": 5,
+    "tenantCognitoId": "ap-south-1:21098765-90ab-cdef-1234-567890abcdef",
+    "name": "Harshita Singh",
+    "email": "harshita.singh@example.in",
+    "phoneNumber": "+91 98222 33445",
+    "message": "I'm very interested in this luxury penthouse.",
+    "leaseId": 8
+  },
+  {
+    "id": 9,
+    "applicationDate": "2023-07-05T00:00:00+05:30",
+    "status": "Pending",
+    "propertyId": 7,
+    "tenantCognitoId": "ap-south-1:10987654-90ab-cdef-1234-567890abcdef",
+    "name": "Ishaan Patel",
+    "email": "ishaan.patel@example.in",
+    "phoneNumber": "+91 97012 34567",
+    "message": "The historic brownstone looks perfect for my family."
+  },
+  {
+    "id": 10,
+    "applicationDate": "2023-07-10T00:00:00+05:30",
+    "status": "Denied",
+    "propertyId": 2,
+    "tenantCognitoId": "ap-south-1:09876543-90ab-cdef-1234-567890abcdef",
+    "name": "Jaya Thakur",
+    "email": "jaya.thakur@example.in",
+    "phoneNumber": "+91 97123 45678",
+    "message": "I'd love to rent this beach house for the summer."
+  },
+  {
+    "id": 11,
+    "applicationDate": "2023-07-15T00:00:00+05:30",
+    "status": "Pending",
+    "propertyId": 8,
+    "tenantCognitoId": "ap-south-1:a9876543-90ab-cdef-1234-567890abcdef",
+    "name": "Karan Malhotra",
+    "email": "karan.malhotra@example.in",
+    "phoneNumber": "+91 98198 76543",
+    "message": "I'm interested in this micro-apartment for its central location."
+  },
+  {
+    "id": 12,
+    "applicationDate": "2023-07-20T00:00:00+05:30",
+    "status": "Approved",
+    "propertyId": 9,
+    "tenantCognitoId": "ap-south-1:b9876543-90ab-cdef-1234-567890abcdef",
+    "name": "Lalit Narayan",
+    "email": "lalit.narayan@example.in",
+    "phoneNumber": "+91 98987 65432",
+    "message": "The mountain view cabin looks perfect for a weekend getaway.",
+    "leaseId": 12
+  },
+  {
+    "id": 13,
+    "applicationDate": "2023-07-25T00:00:00+05:30",
+    "status": "Pending",
+    "propertyId": 10,
+    "tenantCognitoId": "ap-south-1:c9876543-90ab-cdef-1234-567890abcdef",
+    "name": "Mira Desai",
+    "email": "mira.desai@example.in",
+    "phoneNumber": "+91 97724 68135",
+    "message": "I'm curious about the eco-friendly features of this tiny house."
+  },
+  {
+    "id": 14,
+    "applicationDate": "2023-07-30T00:00:00+05:30",
+    "status": "Approved",
+    "propertyId": 1,
+    "tenantCognitoId": "ap-south-1:d9876543-90ab-cdef-1234-567890abcdef",
+    "name": "Nikhil Kumar",
+    "email": "nikhil.kumar@example.in",
+    "phoneNumber": "+91 97639 25800",
+    "message": "The downtown apartment seems ideal for my work location.",
+    "leaseId": 14
+  },
+  {
+    "id": 15,
+    "applicationDate": "2023-08-05T00:00:00+05:30",
+    "status": "Pending",
+    "propertyId": 4,
+    "tenantCognitoId": "ap-south-1:e9876543-90ab-cdef-1234-567890abcdef",
+    "name": "Olivia Chandra",
+    "email": "olivia.chandra@example.in",
+    "phoneNumber": "+91 98159 75311",
+    "message": "I'm looking for a spacious family home like this one."
+  }
+]

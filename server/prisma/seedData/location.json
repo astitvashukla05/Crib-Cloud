@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "country": "India",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "address": "123 Marine Drive",
+    "postalCode": "400001",
+    "coordinates": "POINT(72.8260 18.9429)"
+  },
+  {
+    "id": 2,
+    "country": "India",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "address": "456 M G Road",
+    "postalCode": "560001",
+    "coordinates": "POINT(77.5946 12.9716)"
+  },
+  {
+    "id": 3,
+    "country": "India",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "address": "789 Fergusson College Road",
+    "postalCode": "411004",
+    "coordinates": "POINT(73.8567 18.5204)"
+  },
+  {
+    "id": 4,
+    "country": "India",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "address": "101 Anna Salai",
+    "postalCode": "600002",
+    "coordinates": "POINT(80.2707 13.0827)"
+  },
+  {
+    "id": 5,
+    "country": "India",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "address": "555 Connaught Place",
+    "postalCode": "110001",
+    "coordinates": "POINT(77.2090 28.6139)"
+  },
+  {
+    "id": 6,
+    "country": "India",
+    "city": "Baga",
+    "state": "Goa",
+    "address": "888 Baga Beach Road",
+    "postalCode": "403516",
+    "coordinates": "POINT(73.7540 15.4909)"
+  },
+  {
+    "id": 7,
+    "country": "India",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "address": "777 Banjara Hills Road",
+    "postalCode": "500034",
+    "coordinates": "POINT(78.4867 17.3850)"
+  },
+  {
+    "id": 8,
+    "country": "India",
+    "city": "Kochi",
+    "state": "Kerala",
+    "address": "555 Marine Drive, Ernakulam",
+    "postalCode": "682016",
+    "coordinates": "POINT(76.2673 9.9312)"
+  },
+  {
+    "id": 9,
+    "country": "India",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "address": "1234 Park Street",
+    "postalCode": "700017",
+    "coordinates": "POINT(88.3639 22.5726)"
+  },
+  {
+    "id": 10,
+    "country": "India",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "address": "789 C G Road",
+    "postalCode": "380009",
+    "coordinates": "POINT(72.5714 23.0225)"
+  }
+]

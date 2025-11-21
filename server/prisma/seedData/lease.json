@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "startDate": "2023-07-01T00:00:00+05:30",
+    "endDate": "2024-06-30T00:00:00+05:30",
+    "rent": 45000,
+    "deposit": 45000,
+    "propertyId": 1,
+    "tenantCognitoId": "ap-south-1:98765432-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 2,
+    "startDate": "2023-08-01T00:00:00+05:30",
+    "endDate": "2024-07-31T00:00:00+05:30",
+    "rent": 55000,
+    "deposit": 55000,
+    "propertyId": 2,
+    "tenantCognitoId": "ap-south-1:87654321-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 3,
+    "startDate": "2023-09-01T00:00:00+05:30",
+    "endDate": "2024-08-31T00:00:00+05:30",
+    "rent": 65000,
+    "deposit": 65000,
+    "propertyId": 3,
+    "tenantCognitoId": "ap-south-1:817b3540-a061-707b-742a-a28391181149"
+  },
+  {
+    "id": 4,
+    "startDate": "2023-07-15T00:00:00+05:30",
+    "endDate": "2024-07-14T00:00:00+05:30",
+    "rent": 52000,
+    "deposit": 52000,
+    "propertyId": 4,
+    "tenantCognitoId": "ap-south-1:65432109-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 5,
+    "startDate": "2023-08-15T00:00:00+05:30",
+    "endDate": "2024-08-14T00:00:00+05:30",
+    "rent": 60000,
+    "deposit": 60000,
+    "propertyId": 5,
+    "tenantCognitoId": "ap-south-1:54321098-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 6,
+    "startDate": "2023-09-15T00:00:00+05:30",
+    "endDate": "2024-09-14T00:00:00+05:30",
+    "rent": 70000,
+    "deposit": 70000,
+    "propertyId": 6,
+    "tenantCognitoId": "ap-south-1:43210987-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 7,
+    "startDate": "2023-10-01T00:00:00+05:30",
+    "endDate": "2024-09-30T00:00:00+05:30",
+    "rent": 62000,
+    "deposit": 62000,
+    "propertyId": 3,
+    "tenantCognitoId": "ap-south-1:32109876-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 8,
+    "startDate": "2023-08-01T00:00:00+05:30",
+    "endDate": "2024-07-31T00:00:00+05:30",
+    "rent": 150000,
+    "deposit": 150000,
+    "propertyId": 5,
+    "tenantCognitoId": "ap-south-1:21098765-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 9,
+    "startDate": "2023-11-01T00:00:00+05:30",
+    "endDate": "2024-10-31T00:00:00+05:30",
+    "rent": 85000,
+    "deposit": 85000,
+    "propertyId": 7,
+    "tenantCognitoId": "ap-south-1:10987654-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 10,
+    "startDate": "2023-08-15T00:00:00+05:30",
+    "endDate": "2024-02-14T00:00:00+05:30",
+    "rent": 60000,
+    "deposit": 60000,
+    "propertyId": 2,
+    "tenantCognitoId": "ap-south-1:09876543-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 11,
+    "startDate": "2023-09-01T00:00:00+05:30",
+    "endDate": "2024-08-31T00:00:00+05:30",
+    "rent": 30000,
+    "deposit": 30000,
+    "propertyId": 8,
+    "tenantCognitoId": "ap-south-1:a9876543-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 12,
+    "startDate": "2023-10-01T00:00:00+05:30",
+    "endDate": "2023-12-31T00:00:00+05:30",
+    "rent": 55000,
+    "deposit": 55000,
+    "propertyId": 9,
+    "tenantCognitoId": "ap-south-1:b9876543-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 13,
+    "startDate": "2023-09-15T00:00:00+05:30",
+    "endDate": "2024-03-14T00:00:00+05:30",
+    "rent": 27000,
+    "deposit": 27000,
+    "propertyId": 10,
+    "tenantCognitoId": "ap-south-1:c9876543-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 14,
+    "startDate": "2023-09-01T00:00:00+05:30",
+    "endDate": "2024-08-31T00:00:00+05:30",
+    "rent": 45000,
+    "deposit": 45000,
+    "propertyId": 1,
+    "tenantCognitoId": "ap-south-1:d9876543-90ab-cdef-1234-567890abcdef"
+  },
+  {
+    "id": 15,
+    "startDate": "2023-10-01T00:00:00+05:30",
+    "endDate": "2024-09-30T00:00:00+05:30",
+    "rent": 75000,
+    "deposit": 75000,
+    "propertyId": 4,
+    "tenantCognitoId": "ap-south-1:e9876543-90ab-cdef-1234-567890abcdef"
+  }
+]

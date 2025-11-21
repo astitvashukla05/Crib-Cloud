@@ -1,0 +1,152 @@
+[
+  {
+    "amountDue": 45000,
+    "amountPaid": 45000,
+    "dueDate": "2023-07-01T00:00:00+05:30",
+    "paymentDate": "2023-06-28T00:00:00+05:30",
+    "paymentStatus": "Paid",
+    "lease": {
+      "connect": { "id": 1 }
+    }
+  },
+  {
+    "amountDue": 55000,
+    "amountPaid": 0,
+    "dueDate": "2023-08-01T00:00:00+05:30",
+    "paymentDate": "2023-07-28T00:00:00+05:30",
+    "paymentStatus": "Pending",
+    "lease": {
+      "connect": { "id": 2 }
+    }
+  },
+  {
+    "amountDue": 65000,
+    "amountPaid": 65000,
+    "dueDate": "2023-09-01T00:00:00+05:30",
+    "paymentDate": "2023-08-30T00:00:00+05:30",
+    "paymentStatus": "Paid",
+    "lease": {
+      "connect": { "id": 3 }
+    }
+  },
+  {
+    "amountDue": 52000,
+    "amountPaid": 52000,
+    "dueDate": "2023-07-15T00:00:00+05:30",
+    "paymentDate": "2023-07-14T00:00:00+05:30",
+    "paymentStatus": "Paid",
+    "lease": {
+      "connect": { "id": 4 }
+    }
+  },
+  {
+    "amountDue": 60000,
+    "amountPaid": 0,
+    "dueDate": "2023-08-15T00:00:00+05:30",
+    "paymentDate": "2023-08-14T00:00:00+05:30",
+    "paymentStatus": "Pending",
+    "lease": {
+      "connect": { "id": 5 }
+    }
+  },
+  {
+    "amountDue": 70000,
+    "amountPaid": 70000,
+    "dueDate": "2023-09-15T00:00:00+05:30",
+    "paymentDate": "2023-09-14T00:00:00+05:30",
+    "paymentStatus": "Paid",
+    "lease": {
+      "connect": { "id": 6 }
+    }
+  },
+  {
+    "amountDue": 62000,
+    "amountPaid": 31000,
+    "dueDate": "2023-10-01T00:00:00+05:30",
+    "paymentDate": "2023-09-25T00:00:00+05:30",
+    "paymentStatus": "PartiallyPaid",
+    "lease": {
+      "connect": { "id": 7 }
+    }
+  },
+  {
+    "amountDue": 150000,
+    "amountPaid": 150000,
+    "dueDate": "2023-08-01T00:00:00+05:30",
+    "paymentDate": "2023-07-30T00:00:00+05:30",
+    "paymentStatus": "Paid",
+    "lease": {
+      "connect": { "id": 8 }
+    }
+  },
+  {
+    "amountDue": 85000,
+    "amountPaid": 42500,
+    "dueDate": "2023-11-01T00:00:00+05:30",
+    "paymentDate": "2023-10-25T00:00:00+05:30",
+    "paymentStatus": "PartiallyPaid",
+    "lease": {
+      "connect": { "id": 9 }
+    }
+  },
+  {
+    "amountDue": 60000,
+    "amountPaid": 60000,
+    "dueDate": "2023-08-15T00:00:00+05:30",
+    "paymentDate": "2023-08-10T00:00:00+05:30",
+    "paymentStatus": "Paid",
+    "lease": {
+      "connect": { "id": 10 }
+    }
+  },
+  {
+    "amountDue": 30000,
+    "amountPaid": 0,
+    "dueDate": "2023-09-01T00:00:00+05:30",
+    "paymentDate": "2023-08-30T00:00:00+05:30",
+    "paymentStatus": "Pending",
+    "lease": {
+      "connect": { "id": 11 }
+    }
+  },
+  {
+    "amountDue": 55000,
+    "amountPaid": 55000,
+    "dueDate": "2023-10-01T00:00:00+05:30",
+    "paymentDate": "2023-09-28T00:00:00+05:30",
+    "paymentStatus": "Paid",
+    "lease": {
+      "connect": { "id": 12 }
+    }
+  },
+  {
+    "amountDue": 27000,
+    "amountPaid": 13500,
+    "dueDate": "2023-09-15T00:00:00+05:30",
+    "paymentDate": "2023-09-10T00:00:00+05:30",
+    "paymentStatus": "PartiallyPaid",
+    "lease": {
+      "connect": { "id": 13 }
+    }
+  },
+  {
+    "amountDue": 45000,
+    "amountPaid": 45000,
+    "dueDate": "2023-09-01T00:00:00+05:30",
+    "paymentDate": "2023-08-30T00:00:00+05:30",
+    "paymentStatus": "Paid",
+    "lease": {
+      "connect": { "id": 14 }
+    }
+  },
+  {
+    "amountDue": 75000,
+    "amountPaid": 0,
+    "dueDate": "2023-10-01T00:00:00+05:30",
+    "paymentDate": "2023-09-28T00:00:00+05:30",
+    "paymentStatus": "Paid",
+    "lease": {
+      "connect": { "id": 15 }
+    }
+  }
+]
