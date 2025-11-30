@@ -247,3 +247,31 @@ body,
 [data-close-button='true'] {
   @apply bg-background border-border text-foreground hover:bg-muted;
 }
+/* Background image wrapper */
+.auth-bg {
+  background-image: url('/images/auth-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Transparent card overlay */
+.auth-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.88); /* slightly transparent white */
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  margin: 2rem;
+}
+
+/* Make Amplify container transparent inside overlay */
+.auth-overlay [data-amplify-container] {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
