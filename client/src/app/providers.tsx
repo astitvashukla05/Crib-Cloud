@@ -1,15 +1,17 @@
 'use client';
-import StoreProvider from '@/state/redux';
+
+import React from 'react';
+import { Provider } from 'react-redux';
+import { store } from '@/state/store';
 import { Authenticator } from '@aws-amplify/ui-react';
 import Auth from './(auth)/authProvider';
 
-const Providers = ({ children }: { children: React.ReactNode }) => {
+export default function Providers({ children }: { children: React.ReactNode }) {
   return (
-    <StoreProvider>
+    <Provider store={store}>
       <Authenticator.Provider>
         <Auth>{children}</Auth>
       </Authenticator.Provider>
-    </StoreProvider>
+    </Provider>
   );
-};
-export default Providers;
+}
