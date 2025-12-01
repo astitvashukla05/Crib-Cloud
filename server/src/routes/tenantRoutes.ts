@@ -16,7 +16,8 @@ router.post('/', createTenant);
 
 router.put('/:cognitoId', updateTenant);
 router.get('/:cognitoId/current-residencies', getCurrentResidences);
-router.post(':/cognitoId/favorites/:propertyId', addFavoriteProperty);
-router.delete(':/cognitoId/favorites/:propertyId', removeFavoriteProperty);
+router.post('/:cognitoId/favorites/:propertyId', addFavoriteProperty);
+
+router.delete('/:cognitoId/favorites/:propertyId', removeFavoriteProperty);
 
 export default router;
