@@ -15,23 +15,30 @@ export const api = createApi({
       return headers;
     },
   }),
+
   reducerPath: 'api',
-  tagTypes: [],
+  tagTypes: ['Managers', 'Tenants'],
+
   endpoints: (build) => ({
+    // ---------------------------------------------------------
+    // GET AUTH USER
+    // ---------------------------------------------------------
     getAuthUser: build.query<User, void>({
-      queryFn: async (_, _queryApi, _extraoptions, fetchWithBQ) => {
+      queryFn: async (_, _api, _options, fetchWithBQ) => {
         try {
           const session = await fetchAuthSession();
           const { idToken } = session.tokens ?? {};
           const user = await getCurrentUser();
           const userRole = idToken?.payload['custom:role'] as string;
+
           const endpoint =
             userRole === 'manager'
               ? `managers/${user.userId}`
               : `tenants/${user.userId}`;
 
           let userDetailsRes = await fetchWithBQ(endpoint);
-          // if user not exsists ,create a new user
+
+          // create if not exists
           if (userDetailsRes.error && userDetailsRes.error.status === 404) {
             userDetailsRes = await createNewUserInDatabase(
               user,
@@ -40,6 +47,7 @@ export const api = createApi({
               fetchWithBQ
             );
           }
+
           return {
             data: {
               cognitoInfo: { ...user },
@@ -52,7 +60,41 @@ export const api = createApi({
         }
       },
     }),
+
+    // ---------------------------------------------------------
+    // UPDATE TENANT SETTINGS
+    // ---------------------------------------------------------
+    updateTenantSetting: build.mutation<
+      Tenant,
+      { cognitoId: string } & Partial<Tenant>
+    >({
+      query: ({ cognitoId, ...update }) => ({
+        url: `tenants/${cognitoId}`,
+        method: 'PUT',
+        body: update,
+      }),
+      invalidatesTags: ['Tenants'],
+    }),
+
+    // ---------------------------------------------------------
+    // UPDATE MANAGER SETTINGS
+    // ---------------------------------------------------------
+    updateManagerSetting: build.mutation<
+      Manager,
+      { cognitoId: string } & Partial<Manager>
+    >({
+      query: ({ cognitoId, ...update }) => ({
+        url: `managers/${cognitoId}`,
+        method: 'PUT',
+        body: update,
+      }),
+      invalidatesTags: ['Managers'],
+    }),
   }),
 });
 
-export const { useGetAuthUserQuery } = api;
+export const {
+  useGetAuthUserQuery,
+  useUpdateTenantSettingMutation,
+  useUpdateManagerSettingMutation,
+} = api;
