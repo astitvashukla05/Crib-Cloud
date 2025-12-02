@@ -33,7 +33,7 @@ export default function DashboardLayout({
 
     if (role === 'tenant') {
       if (pathname.startsWith('/managers')) {
-        router.replace('/tenants/favourites');
+        router.replace('/tenants/favorites');
         return;
       }
     }
