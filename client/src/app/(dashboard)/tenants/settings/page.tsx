@@ -3,13 +3,13 @@
 import SettingsForm from '@/components/SettingsForm';
 import {
   useGetAuthUserQuery,
-  useUpdateTenantSettingMutation,
+  useUpdateTenantSettingsMutation,
 } from '@/state/api';
 import React from 'react';
 
 const TenantSettings = () => {
   const { data: authUser, isLoading } = useGetAuthUserQuery();
-  const [updateTenant] = useUpdateTenantSettingMutation();
+  const [updateTenant] = useUpdateTenantSettingsMutation();
   console.log(authUser);
   if (isLoading) return <>Loading...</>;
 

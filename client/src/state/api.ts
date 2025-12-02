@@ -61,6 +61,7 @@ export const api = createApi({
               fetchWithBQ
             );
           }
+          console.log(userDetailsResponse);
 
           return {
             data: {

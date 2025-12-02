@@ -3,20 +3,21 @@
 import SettingsForm from '@/components/SettingsForm';
 import {
   useGetAuthUserQuery,
-  useUpdateManagerSettingMutation,
+  useUpdateManagerSettingsMutation,
 } from '@/state/api';
 import React from 'react';
 
 const TenantSettings = () => {
   const { data: authUser, isLoading } = useGetAuthUserQuery();
-  const [updateTenant] = useUpdateManagerSettingMutation();
+
+  const [updateTenant] = useUpdateManagerSettingsMutation();
   console.log(authUser);
   if (isLoading) return <>Loading...</>;
 
   const initialData = {
-    name: authUser?.userInfo.name,
-    email: authUser?.userInfo.email,
-    phoneNumber: authUser?.userInfo.phoneNumber,
+    name: authUser?.userInfo.data.name,
+    email: authUser?.userInfo.data.email,
+    phoneNumber: authUser?.userInfo.data.phoneNumber,
   };
 
   const handleSubmit = async (data: typeof initialData) => {
@@ -30,7 +31,7 @@ const TenantSettings = () => {
     <SettingsForm
       initialData={initialData}
       onSubmit={handleSubmit}
-      userType="manager"
+      userType="tenant"
     />
   );
 };
